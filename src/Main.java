@@ -1,20 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        LL linkedList = new LL();
-
-        linkedList.insertFirst(43);
-        linkedList.insertFirst(14);
-        linkedList.insertFirst(34);
-        linkedList.insertFirst(12);
-
-        linkedList.insertLast(23);
-
-        linkedList.insert(53,2);
-        linkedList.delete(2);
-
-        linkedList.display();
-
-        System.out.println(linkedList.find(124));
-
+        DLL list = new DLL();
+        list.insertFirst(5);
+        list.insertFirst(4);
+        list.insertFirst(3);
+        list.insertFirst(2);
+        list.insertFirst(1);
+        list.insertLast(6);
+        list.delete(1);
+        list.display();
     }
 }
